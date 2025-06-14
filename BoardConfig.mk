@@ -106,7 +106,6 @@ BOARD_KERNEL_CMDLINE := \
     ip6table_raw.raw_before_defrag=1 \
     firmware_class.path=/vendor/firmware
 
-TARGET_KERNEL_CONFIG := holi_QGKI
 TARGET_KERNEL_SOURCE := $(DEVICE_PATH)-kernel/kernel-headers
 TARGET_KERNEL_NO_GCC := true
 TARGET_KERNEL_VERSION := 5.4
